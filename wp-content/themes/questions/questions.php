@@ -1,0 +1,18 @@
+<?php /* Template Name: Questions */ ?>
+<?php get_header(); ?>
+
+<div class="container">
+<div class="columns nine">
+  <section id="content" class="border zzz">
+    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+    <?php the_content(); ?>
+    <?php endwhile; // end of the loop. ?>
+  </section>   
+</div> 
+  <div class="columns three">
+   <aside class="sidebar">
+      <?php dynamic_sidebar( 'Questions' ); ?>
+    </aside>
+</div>
+</div>
+<?php get_footer(); ?>

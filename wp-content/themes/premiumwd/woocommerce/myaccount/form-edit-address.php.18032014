@@ -1,0 +1,90 @@
+<?php
+/**
+ * Edit address form
+ *
+ * @author 		WooThemes
+ * @package 	WooCommerce/Templates
+ * @version     2.1.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
+global $woocommerce, $current_user;
+
+$page_title = ( $load_address == 'billing' ) ? __( 'Billing Address', 'woocommerce' ) : __( 'Shipping Address', 'woocommerce' );
+
+get_currentuserinfo();
+?>
+
+<?php wc_print_notices(); ?>
+
+<?php if ( ! $load_address ) : ?>
+
+	<?php wc_get_template( 'myaccount/my-address.php' ); ?>
+
+<?php else : ?>
+<div class="user-account">
+<div class="picture"><?php global $user_ID; echo get_avatar($user_ID);  ?>
+<ul>
+<li class="name"><?php global $current_user; get_currentuserinfo(); echo $current_user->user_firstname ?></li>
+<li class="downloads"><em class="icon-shopping-cart"></em> &nbsp;<a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'woothemes'); ?>"><?php echo $woocommerce->cart->get_cart_total(); ?></a></li>
+</ul>
+</div>
+<ul class="account">
+<li><a href="/my-account/downloads/"><em class="icon-download-alt"></em> Downloads</a></li>
+<li><a href="/my-account/orders/"><em class="icon-list-alt"></em> Orders</a></li>
+<li><a href="/my-account/licenses/"><em class="icon-inbox"></em> Licenses</a></li>
+<li><a href="/my-account/edit-address/billing/"><em class="icon-cog"></em> Settings</a></li>
+</ul>
+</div>
+	
+    <div id="tabs" class="ui-tabs ">
+  <ul class="ui-tabs-nav">
+    <li class="ui-tabs-active"><a href="#tabs-1" class="ui-tabs-anchor">My Address</a></li>
+    <li><a href="#tabs-2" class="ui-tabs-anchor">Change Password</a></li>
+    <li><a href="#tabs-3" class="ui-tabs-anchor">Edit Profile</a></li>
+  </ul>
+  <br /><br />
+  <div id="tabs-1" class="ui-tabs-panel">
+    <form method="post">
+
+		<h3><?php echo apply_filters( 'woocommerce_my_account_edit_address_title', $page_title ); ?></h3>
+
+		<?php foreach ( $address as $key => $field ) : ?>
+
+			<?php woocommerce_form_field( $key, $field, ! empty( $_POST[ $key ] ) ? wc_clean( $_POST[ $key ] ) : $field['value'] ); ?>
+
+		<?php endforeach; ?>
+
+		<p>
+			<input type="submit" class="button" name="save_address" value="<?php _e( 'Save Address', 'woocommerce' ); ?>" />
+			<?php wp_nonce_field( 'woocommerce-edit_address' ); ?>
+			<input type="hidden" name="action" value="edit_address" />
+		</p>
+
+	</form>
+  </div>
+  <div id="tabs-2" class="ui-tabs-panel">
+    <?php echo do_shortcode('[wp-members page="password"]'); ?>
+  </div>
+  <div id="tabs-3" class="ui-tabs-panel">
+    <?php echo do_shortcode('[wpuf_editprofile]'); ?>
+  </div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function(e) {
+    jQuery("#tabs ul li a").click(function(){
+		jQuery("#tabs > div").hide();
+		jQuery("#tabs ul li").removeClass("ui-tabs-active");
+		var id = jQuery(this).attr("href");
+		jQuery(this).parent().addClass("ui-tabs-active");
+		jQuery("#tabs > div"+id).show();
+		return false;
+	});
+});
+</script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<style>
+.ui-tabs .ui-tabs-panel{ clear:both; }
+</style>
+<?php endif; ?>

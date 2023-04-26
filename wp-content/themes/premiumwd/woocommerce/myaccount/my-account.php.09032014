@@ -1,0 +1,41 @@
+<div class="nav-bar"><em class="icon-reorder icon-large"></em><em class="icon-cog icon-large"></em></div>
+<?php
+/**
+ * My Account page
+ *
+ * @author 		WooThemes
+ * @package 	WooCommerce/Templates
+ * @version     2.0.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
+
+
+global $woocommerce;
+
+$woocommerce->show_messages(); ?>
+
+<div class="user-account">
+<div class="picture"><?php global $user_ID; echo get_avatar($user_ID);  ?>
+<ul>
+<li class="name"><?php global $user_ID; echo $current_user->user_firstname ?></li>
+<li class="downloads"><em class="icon-shopping-cart"></em> &nbsp;<a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'woothemes'); ?>"><?php echo $woocommerce->cart->get_cart_total(); ?></a></li>
+</ul>
+</div>
+<ul class="account">
+<li><a href="/my-account/downloads/"><em class="icon-download-alt"></em> Downloads</a></li>
+<li><a href="/my-account/orders/"><em class="icon-list-alt"></em> Orders</a></li>
+<li><a href="/my-account/licenses/"><em class="icon-inbox"></em> Licenses</a></li>
+<li><a href="/my-account/settings/"><em class="icon-cog"></em> Settings</a></li>
+</ul>
+</div>
+
+
+<?php do_action( 'woocommerce_before_my_account' ); ?>
+
+<?php wc_get_template( 'myaccount/my-orders.php', array( 'order_count' => $order_count ) ); ?>
+ <?php
+	//wc_get_template( 'myaccount/my-address.php' ); ?> 
+ ?>
+<?php do_action( 'woocommerce_after_my_account' ); ?>
