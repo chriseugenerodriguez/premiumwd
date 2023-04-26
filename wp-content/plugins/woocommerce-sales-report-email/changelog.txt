@@ -1,0 +1,11 @@
+*** WooCommerce Sales Report Email ***
+
+2016.03.02 - version 1.1.2
+* Fix - Duplicate header and footer removed from the email
+
+2015.09.29 - version 1.1.1
+* Remove legacy email code.
+
+2015.07.24 - version 1.1.0
+* Adds setting for time of day to send email
+* Adds total subscribers to email

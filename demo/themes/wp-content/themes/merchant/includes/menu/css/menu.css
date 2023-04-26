@@ -1,0 +1,79 @@
+#mobile-menu .premiumwd_mega_div.container .one.column, #mobile-menu .premiumwd_mega_div.container .two.columns, #mobile-menu .premiumwd_mega_div.container .three.columns, #mobile-menu .premiumwd_mega_div.container .four.columns, #mobile-menu .premiumwd_mega_div.container .five.columns, #mobile-menu .premiumwd_mega_div.container .six.columns, #mobile-menu .premiumwd_mega_div.container .seven.columns, #mobile-menu .premiumwd_mega_div.container .eight.columns, #mobile-menu .premiumwd_mega_div.container .nine.columns, #mobile-menu .premiumwd_mega_div.container .ten.columns, #mobile-menu .premiumwd_mega_div.container .eleven.columns, #mobile-menu .premiumwd_mega_div.container .twelve.columns {
+	width:100%;
+	margin:0
+}
+.sub-nav .premiumwd_mega_div li a > i, #mobile-menu li a > i {
+	margin-right:5px
+}
+.premiumwd_mega_div {
+	background:#333;
+	padding:15px 0 !important;
+	display:block;
+}
+.premiumwd_mega_div li {
+	float:left!important;
+	position:relative!important;
+	margin:0
+}
+.premiumwd_mega_div ul {
+	left:0 !important;
+	display:block!important;
+	position:relative !important;
+	border:none!important
+}
+.sub-nav .premiumwd_mega_div > li {
+	display:table-cell!important;
+	float:none!important;
+	text-transform:uppercase;
+	padding: 0 15px;
+}
+.premiumwd_mega_div > li:last-child {
+    border-right: 0 none;
+}
+.premiumwd_mega_div li.three {
+    width: 25%;
+}
+.menu-header .premiumwd_mega_div > li {
+    display: table-cell !important;
+    float: none !important;
+    padding: 0 15px;
+}
+.premiumwd_mega_div > li {
+    border-bottom: medium none !important;
+    border-right: 1px solid #444;
+}
+.sub-nav .premiumwd_mega_div > li a{margin:0px;text-transform:uppercase;}
+.premiumwd_mega_div li a {
+	border-bottom:0px none !important;
+	background:transparent!important;
+}
+ul.premiumwd_mega_div > li > a {
+	font-size:12px;
+	letter-spacing:2px;
+	margin-bottom:5px;
+	text-transform:capitalize
+}
+.premiumwd_mega_div li.twelve, .sub-nav .premiumwd_mega_div .sub-menu li, .sub-nav .premiumwd_mega_div ul.sub-menu, .sub-nav .premiumwd_mega_div ul.sub-menu li a {
+	width:100%
+}
+.premiumwd_mega_div li.six {
+	width:50%
+}
+.premiumwd_mega_div li.four {
+	width:33.33%
+}
+.premiumwd_mega_div li.three {
+	width:25%
+}
+ul.premiumwd_mega_div > li > a {
+	font-size:12px;
+	letter-spacing:2px;
+	margin-bottom:5px;
+	text-transform:capitalize
+}
+.sub-nav .premiumwd_mega_div.sub-menu > li {
+	border-right:1px solid #ccc;
+}
+.sub-nav .premiumwd_mega_div.sub-menu > li:last-child {
+	border:0 none
+}

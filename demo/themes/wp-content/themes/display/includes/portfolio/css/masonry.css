@@ -1,0 +1,55 @@
+.page-template-portfolio-php #wrapper{background:#f5f5f5}
+.portfolio-title .container ul li#sort-label{color:#EEE}
+.portfolio-title .container > ul a,.portfolio-title .container > ul li#sort-label{display:inline-block;line-height:14px;margin:7px 0;padding:0 11px}
+.portfolio-title .container ul li,.portfolio-title .container ul ul{display:inline}
+.portfolio-title .container li,.portfolio-title .container li{list-style:none outside none!important}
+#portfolio-filters-inline.hide-filter{margin-top:-50px;}
+.portfolio-title .container ul li#sort-label{padding-right:20px}
+#portfolio-filters-inline ul li a.active{color:#1FB4DA}
+.portfolio-title .container ul a,.portfolio-title .container ul li#sort-label{display:inline-block;padding:0 20px}
+.portfolio-title .container ul li a{color:#999}
+.portfolio-title .container ul li a:hover{color:#eee}
+.isotope-item{z-index:2}
+.isotope{transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s;}
+.isotope,.isotope .isotope-item{-webkit-transition-duration:.8s;-moz-transition-duration:.8s;transition-duration:.8s}
+.isotope-item figure figcaption h3:after{content:'';border-right:1px solid #ccc;width:1px;height:15px;display:block;margin:20px auto}
+.isotope-item figure figcaption h3{letter-spacing:2px}
+.isotope-item figure figcaption p, .isotope-item figure figcaption .excerpt {display:inline-block;letter-spacing:1px;font-size:13px;line-height:20px;}
+.portfolio-tag{text-align:center;width:100%;margin:0 0 20px}
+.isotope-item figure figcaption .excerpt, .single-portfolio .excerpt{width:250px;margin:0 auto;text-align:center}
+.isotope-item figure{background:#fff;display:block;margin:0;overflow:hidden;padding:0;position:relative;text-align:center;width:100%}
+.isotope-item figure img{display:block;max-width:100%;min-height:10em;opacity:1;position:relative;width:100%}
+.isotope-item figure figcaption{transition:background ease 0.3s;-moz-transition:background ease 0.3s;-webkit-transition:background ease 0.3s;height:100%;left:0;position:absolute;top:0;width:100%;opacity:0}
+.isotope-item figure figcaption:hover{opacity:.8;background:#fff}
+.isotope-item figure figcaption a, .isotope-item figure figcaption p, .isotope-item figure figcaption .excerpt {color:#777;}
+.isotope-item figure figcaption.dark:hover{background:#555;}
+.isotope-item figure figcaption.dark h3 {color:#fff;}
+.isotope-item figure figcaption.dark a, .isotope-item figure figcaption.dark p, .isotope-item figure figcaption.dark .excerpt {color:#ccc;}
+.isotope-item figure figcaption::before,.isotope-item figure figcaption::after{pointer-events:none}
+.isotope-item figure figcaption a{text-align:center;position:absolute;left:0;right:0;;width:auto}
+.item-h2,.item-h1{height:auto!important}
+.portfolio-columns {margin-top:75px;}
+
+.isotope-item figure[type="2"] figcaption:before{border-bottom:1px solid #ccc;border-top:1px solid #ccc;transform:scale(0,1);-moz-transform:scale(0,1);-webkit-transform:scale(0,1)}
+.isotope-item figure[type="2"] figcaption:after{border-right:1px solid #ccc;border-left:1px solid #ccc;transform:scale(1,0);-moz-transform:scale(1,0);-webkit-transform:scale(1,0)}
+.isotope-item figure[type="2"] figcaption:before,.isotope-item figure[type="2"] figcaption:after{bottom:20px;content:"";left:20px;opacity:0;position:absolute;right:20px;top:20px;
+transition:opacity .6s ease 0s, transform .6s ease 0s;-moz-transition:opacity .6s ease 0s, transform .6s ease 0s;-webkit-transition:opacity .6s ease 0s, transform .6s ease 0s;}
+.isotope-item figure[type="2"]:hover figcaption{transition:opacity .6s ease 0s,transform .6s ease 0s;-moz-transition:opacity .6s ease 0s,transform .6s ease 0s;-webkit-transition:opacity .6s ease 0s,transform .6s ease 0s;}
+.isotope-item figure[type="2"]:hover figcaption:before,.isotope-item figure[type="2"]:hover figcaption:after{opacity:1;transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1)}
+.isotope-item figure[type="3"] img {transition:transform 0.6s ease 0s;-moz-transition:transform 0.6s ease 0s;-webkit-transition:transform 0.6s ease 0s;}
+.isotope-item figure[type="3"]:hover img {  transform: scale3d(1.1,1.1, 1);-moz-transform: scale3d(1.1,1.1, 1);-webkit-transform: scale3d(1.1,1.1, 1);}
+.isotope-item figure[type="3"] figcaption {transition:background ease 0.6s;-moz-transition:background ease 0.6s;-webkit-transition:background ease 0.6s;}
+.isotope-item figure[type="3"] figcaption h3 {margin:0px;}
+.isotope-item figure[type="3"] figcaption h3:after {margin:0px;border:0px none;}
+.isotope-item figure[type="3"]:hover figcaption h3, .isotope-item figure[type="3"]:hover figcaption p, .isotope-item figure[type="3"]:hover figcaption .excerpt {-moz-transform: scale3d(1.1, 1.1, 1);-webkit-transform: scale3d(1.1, 1.1, 1);transform: scale3d(1.1, 1.1, 1);-moz-transition: transform 0.7s ease 0s;-webkit-transition: transform 0.7s ease 0s;transition: transform 0.7s ease 0s;}
+.isotope-item figure[type="3"]:hover figcaption p:before, .isotope-item figure[type="3"]:hover figcaption .excerpt:before {transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);}
+.isotope-item figure[type="3"] figcaption p:before, .isotope-item figure[type="3"] figcaption .excerpt:before {-moz-transition: transform .6s ease 0s;-webkit-transition: transform .6s ease 0s;transition: transform .6s ease 0s;transform:scale(0.5);-moz-transform:scale(0.5);-webkit-transform:scale(0.5);border-top:1px solid #ccc;padding-bottom:15px;width:30px;margin:0px auto;display:block;content:'';}
+.item-w1.item-h1.isotope-item figure[type="4"]:hover img {transform: scale3d(0.95, 0.95, 1);-moz-transform: scale3d(0.95, 0.95, 1);-webkit-transform: scale3d(0.95, 0.95, 1);}
+.item-w1.item-h2.isotope-item figure[type="4"]:hover img {transform: scale3d(0.96, 0.97, 1);-moz-transform: scale3d(0.96, 0.97, 1);-webkit-transform: scale3d(0.96, 0.97, 1);}
+.item-w2.item-h1.isotope-item figure[type="4"]:hover img {transform: scale3d(0.98, 0.95, 1);-moz-transform: scale3d(0.98, 0.95, 1);-webkit-transform: scale3d(0.98, 0.95, 1);}
+.item-w2.item-h2.isotope-item figure[type="4"]:hover img {transform: scale3d(0.98, 0.97, 1);-moz-transform: scale3d(0.98, 0.97, 1);-webkit-transform: scale3d(0.98, 0.97, 1);}
+.isotope-item figure[type="4"] img { transform-origin: 50% 50% 0;-moz-transform-origin: 50% 50% 0;-webkit-transform-origin: 50% 50% 0; transition: transform 0.35s ease 0s;-moz-transition: transform 0.35s ease 0s;-webkit-transition: transform 0.35s ease 0s;}
+.isotope-item figure[type="4"] h3 {margin:0px;-moz-transform: translate3d(0px, 30px, 0px);-webkit-transform: translate3d(0px, 30px, 0px); transform: translate3d(0px, 30px, 0px); transition: transform 0.35s ease 0s;-moz-transition: transform 0.35s ease 0s;-webkit-transition: transform 0.35s ease 0s;}
+.isotope-item figure[type="4"]:hover h3 {transform: translate3d(0px, 0px, 0px);-moz-transform: translate3d(0px, 0px, 0px);-webkit-transform: translate3d(0px, 0px, 0px);}
+.isotope-item figure[type="4"] p, .isotope-item figure[type="4"] .excerpt {transform: translate3d(0px, -10px, 0px);-moz-transform: translate3d(0px, -10px, 0px);-webkit-transform: translate3d(0px, -10px, 0px);opacity:0;transition: transform 0.35s ease 0s;-moz-transition: transform 0.35s ease 0s;-webkit-transition: transform 0.35s ease 0s;}
+.isotope-item figure[type="4"]:hover p, .isotope-item figure[type="4"]:hover .excerpt {opacity:1;transform: translate3d(0px, 0px, 0px);-moz-transform: translate3d(0px, 0px, 0px);-webkit-transform: translate3d(0px, 0px, 0px); }

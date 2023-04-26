@@ -1,0 +1,1749 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-29 12:36-0700\n"
+"PO-Revision-Date: 2016-05-29 12:37-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: 404.php:7
+msgid "404"
+msgstr "404"
+
+#: 404.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: 404.php:18 search.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:12
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:14
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:14
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:16
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+msgid "Author: <span>%s</span>"
+msgstr ""
+
+#: archive.php:20
+msgid "Archives"
+msgstr ""
+
+#: footer.php:37
+msgid "All Rights Reserved."
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:48
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:306
+msgid "You have already liked this item."
+msgstr ""
+
+#: functions.php:307
+msgid "Sorry, there was a problem processing your request."
+msgstr ""
+
+#: includes/blog/blog-format.php:5
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:28
+msgid "Test Metabox"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:36
+#: includes/inc/meta/example-functions.php:270
+msgid "Test Text"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:37
+#: includes/inc/meta/example-functions.php:48
+#: includes/inc/meta/example-functions.php:55
+#: includes/inc/meta/example-functions.php:62
+#: includes/inc/meta/example-functions.php:70
+#: includes/inc/meta/example-functions.php:77
+#: includes/inc/meta/example-functions.php:89
+#: includes/inc/meta/example-functions.php:95
+#: includes/inc/meta/example-functions.php:102
+#: includes/inc/meta/example-functions.php:117
+#: includes/inc/meta/example-functions.php:125
+#: includes/inc/meta/example-functions.php:132
+#: includes/inc/meta/example-functions.php:138
+#: includes/inc/meta/example-functions.php:144
+#: includes/inc/meta/example-functions.php:156
+#: includes/inc/meta/example-functions.php:167
+#: includes/inc/meta/example-functions.php:178
+#: includes/inc/meta/example-functions.php:189
+#: includes/inc/meta/example-functions.php:197
+#: includes/inc/meta/example-functions.php:204
+#: includes/inc/meta/example-functions.php:212
+#: includes/inc/meta/example-functions.php:218
+#: includes/inc/meta/example-functions.php:230
+#: includes/inc/meta/example-functions.php:271
+#: includes/inc/meta/example-functions.php:337
+#: includes/inc/meta/example-functions.php:344
+#: includes/inc/meta/example-functions.php:351
+#: includes/inc/meta/example-functions.php:357
+#: includes/inc/meta/example-functions.php:363
+#: includes/inc/meta/example-functions.php:369
+#: includes/inc/meta/example-functions.php:375
+#: includes/inc/meta/example-functions.php:393
+msgid "field description (optional)"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:47
+msgid "Test Text Small"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:54
+msgid "Test Text Medium"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:61
+msgid "Website URL"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:69
+msgid "Test Text Email"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:76
+msgid "Test Time"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:82
+#: includes/inc/meta/example-functions.php:83
+msgid "Time zone"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:88
+msgid "Test Date Picker"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:94
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:101
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:116
+msgid "Test Money"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:124
+msgid "Test Color Picker"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:131
+msgid "Test Text Area"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:137
+msgid "Test Text Area Small"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:143
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:149
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:150
+msgid "This is a title description"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:155
+msgid "Test Select"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:160
+#: includes/inc/meta/example-functions.php:171
+#: includes/inc/meta/example-functions.php:182
+msgid "Option One"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:161
+#: includes/inc/meta/example-functions.php:172
+#: includes/inc/meta/example-functions.php:183
+msgid "Option Two"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:162
+#: includes/inc/meta/example-functions.php:173
+#: includes/inc/meta/example-functions.php:184
+msgid "Option Three"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:166
+msgid "Test Radio inline"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:177
+msgid "Test Radio"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:188
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:196
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:203
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:211
+msgid "Test Checkbox"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:217
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:222
+msgid "Check One"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:223
+msgid "Check Two"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:224
+msgid "Check Three"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:229
+msgid "Test wysiwyg"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:236
+msgid "Test Image"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:237
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:242
+msgid "Multiple Files"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:243
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:249
+msgid "oEmbed"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:250
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
+"Embeds</a>."
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:262
+msgid "About Page Metabox"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:283
+msgid "Repeating Field Group"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:289
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:291
+msgid "Entry {#}"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:292
+msgid "Add Another Entry"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:293
+msgid "Remove Entry"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:330
+msgid "User Profile Metabox"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:336
+msgid "Extra Info"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:343
+msgid "Avatar"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:350
+msgid "Facebook URL"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:356
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:362
+msgid "Google+ URL"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:368
+msgid "Linkedin URL"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:374
+msgid "User Field"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:388
+msgid "Theme Options Metabox"
+msgstr ""
+
+#: includes/inc/meta/example-functions.php:392
+msgid "Site Background Color"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_field.php:459
+msgid "Add Group"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_field.php:460
+msgid "Remove Group"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:250
+msgid "Add Row"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:306
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:706
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:768
+msgid "Remove"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:601
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:635
+msgid "No terms"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:674
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:728
+msgid "Add or Upload File"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:695
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:760
+msgid "Remove Image"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:706
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:768
+msgid "File:"
+msgstr ""
+
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:706
+#: includes/inc/meta/helpers/cmb_Meta_Box_types.php:768
+msgid "Download"
+msgstr ""
+
+#: includes/inc/meta/init.php:258
+msgid "Clear"
+msgstr ""
+
+#: includes/inc/meta/init.php:259
+msgid "Default"
+msgstr ""
+
+#: includes/inc/meta/init.php:260
+msgid "Select Color"
+msgstr ""
+
+#: includes/inc/meta/init.php:261
+msgid "Current Color"
+msgstr ""
+
+#: includes/inc/meta/init.php:288
+msgid "Select / Deselect All"
+msgstr ""
+
+#: includes/inc/meta/init.php:1177
+msgid "Save"
+msgstr ""
+
+#: includes/inc/page-title.php:9
+msgid "Results"
+msgstr ""
+
+#: includes/inc/page-title.php:9
+msgid "for"
+msgstr ""
+
+#: includes/inc/page-title.php:15
+msgid "Author:"
+msgstr ""
+
+#: includes/inc/page-title.php:18
+msgid "Category:"
+msgstr ""
+
+#: includes/inc/page-title.php:21
+msgid "Tagged:"
+msgstr ""
+
+#: includes/inc/page-title.php:24
+msgid "Daily Archive:"
+msgstr ""
+
+#: includes/inc/page-title.php:27
+msgid "Monthly Archive:"
+msgstr ""
+
+#: includes/inc/page-title.php:30
+msgid "Yearly Archive:"
+msgstr ""
+
+#: includes/inc/page-title.php:33 includes/inc/page-title.php:35
+#: includes/inc/page-title.php:37 includes/inc/page-title.php:39
+#: includes/inc/page-title.php:41 includes/inc/page-title.php:43
+#: includes/inc/page-title.php:45 includes/inc/page-title.php:47
+#: includes/inc/page-title.php:49 includes/shortcodes/tinymce/config.php:381
+#: includes/shortcodes/tinymce/config.php:727
+msgid "Type:"
+msgstr ""
+
+#: includes/inc/page-title.php:33
+msgid "Audio"
+msgstr ""
+
+#: includes/inc/page-title.php:35
+msgid "Aside"
+msgstr ""
+
+#: includes/inc/page-title.php:37
+msgid "Chat"
+msgstr ""
+
+#: includes/inc/page-title.php:39
+msgid "Gallery"
+msgstr ""
+
+#: includes/inc/page-title.php:41
+msgid "Image"
+msgstr ""
+
+#: includes/inc/page-title.php:43
+msgid "Link"
+msgstr ""
+
+#: includes/inc/page-title.php:45
+msgid "Quote"
+msgstr ""
+
+#: includes/inc/page-title.php:47
+#: includes/plugins/class-tgm-plugin-activation.php:2638
+msgid "Status"
+msgstr ""
+
+#: includes/inc/page-title.php:49
+msgid "Video"
+msgstr ""
+
+#: includes/inc/post-nav.php:3
+msgid "Next Article"
+msgstr ""
+
+#: includes/inc/post-nav.php:4
+msgid "Previous Article"
+msgstr ""
+
+#: includes/options/generate-options.php:83
+msgid " Settings have been saved. "
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:334
+#: includes/plugins/theme_plugins.php:36
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:335
+#: includes/plugins/theme_plugins.php:37
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:337
+#: includes/plugins/theme_plugins.php:38
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:340
+#: includes/plugins/theme_plugins.php:39
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:343
+#: includes/plugins/theme_plugins.php:40
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:348
+#: includes/plugins/theme_plugins.php:41
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:353
+#: includes/plugins/theme_plugins.php:46
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:363
+#: includes/plugins/theme_plugins.php:43
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:368
+#: includes/plugins/theme_plugins.php:44
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:372
+#: includes/plugins/theme_plugins.php:48
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:383
+#: includes/plugins/theme_plugins.php:50
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:384
+#: includes/plugins/class-tgm-plugin-activation.php:911
+#: includes/plugins/class-tgm-plugin-activation.php:2617
+#: includes/plugins/class-tgm-plugin-activation.php:3664
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:385
+#: includes/plugins/class-tgm-plugin-activation.php:3243
+#: includes/plugins/theme_plugins.php:51
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:386
+#: includes/plugins/class-tgm-plugin-activation.php:3036
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:388
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:390
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:393
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:394
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:395
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:598
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:599
+msgid "Update Required"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:716
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:1018
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:1018
+#: includes/plugins/class-tgm-plugin-activation.php:1021
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:1021
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:1205
+#: includes/plugins/class-tgm-plugin-activation.php:3032
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2357
+msgid "Required"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2360
+msgid "Recommended"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2376
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2379
+msgid "External Source"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2382
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2399
+msgid "Not Installed"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2403
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2405
+msgid "Active"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2411
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2414
+msgid "Requires Update"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2417
+msgid "Update recommended"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2426
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2472
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2476
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2480
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2484
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2566
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2574
+msgid "Installed version:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2582
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2594
+msgid "Available version:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2617
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2631
+msgid "Plugin"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2632
+msgid "Source"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2633
+#: includes/shortcodes/tinymce/config.php:585
+msgid "Type"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2637
+msgid "Version"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2687
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2692
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2698
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2768
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2801
+msgid "Install"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2807
+msgid "Update"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2810
+msgid "Activate"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2841
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2843
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2884
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2886
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2992
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3018
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3242
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3582
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3585
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3587
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3591
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3593
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3593
+#: includes/plugins/class-tgm-plugin-activation.php:3601
+msgid "Show Details"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3593
+#: includes/plugins/class-tgm-plugin-activation.php:3601
+msgid "Hide Details"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3594
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3599
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3601
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3602
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3604
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins/theme_plugins.php:42
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/theme_plugins.php:45
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/theme_plugins.php:47
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/theme_plugins.php:49
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/theme_plugins.php:52
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:34
+msgid "Tall (600x900)"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:35
+msgid "Small (600x450)"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:36
+msgid "Wide (1200x450)"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:37
+msgid "Large (1200x900)"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:54
+msgid "Side"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:55
+msgid "Regular"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:56
+msgid "Carousal"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:57
+msgid "Full Screen"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:67 includes/portfolio/portfolios.php:78
+#: includes/portfolio/portfolios.php:89 includes/portfolio/portfolios.php:100
+msgid "Yes"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:68 includes/portfolio/portfolios.php:79
+#: includes/portfolio/portfolios.php:90 includes/portfolio/portfolios.php:101
+msgid "No"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:168
+msgid "Portfolio"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:169 includes/portfolio/portfolios.php:298
+msgid "Portfolio Item"
+msgid_plural "Portfolio Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/portfolio/portfolios.php:170 includes/portfolio/portfolios.php:171
+#: includes/portfolio/portfolios.php:173
+msgid "Add New"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:172
+msgid "Edit Portfolio"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:174
+msgid "View Portfolio"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:175
+msgid "Search Portfolio"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:176
+msgid "No portfolio items found"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:177
+msgid "No portfolio items found in trash"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:196 includes/portfolio/portfolios.php:210
+msgid "Categories"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:197
+msgid "Portfolio Category"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:198
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:199
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:200
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:201
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:202
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:203
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:204
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:205
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:206
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:207
+msgid "Separate portfolio categories with commas"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:208
+msgid "Add or remove portfolio categories"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:209
+msgid "Choose from the most used portfolio categories"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:235
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/portfolio/portfolios.php:310
+msgid "Portfolio Item Pending"
+msgid_plural "Portfolio Items Pending"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/shortcodes/tinymce/config.php:20
+msgid "Pricing Table Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:26
+#: includes/shortcodes/tinymce/config.php:160 includes/widgets/instagram.php:98
+msgid "Title"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:31
+msgid "Featured"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:41
+msgid "Amount"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:47
+msgid "Button Link"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:53
+msgid "Button Text"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:58
+msgid "Click to Add Another Table"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:71
+msgid "GPS (lat, lng)"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:72
+msgid ""
+"To Find GPS Coordinates, go <a target=\"_blank\" href=\"http://www.latlong."
+"net/convert-address-to-lat-long.html\">here</a>."
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:77
+msgid "Marker for Google Map"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:78
+msgid "Add path of google marker image (.png) only"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:83
+msgid "Height"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:84
+msgid "ex. 500px"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:89
+msgid "Custom Styling"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:90
+msgid ""
+"Add your own google map look <a href=\"https://snazzymaps.com/\" target="
+"\"_blank\">here</a>"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:94
+msgid "Scroll Wheel"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:103
+msgid "Draggable"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:114
+msgid "Zoom Level"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:138
+msgid "Google Map Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:150
+#: includes/shortcodes/tinymce/config.php:285
+msgid "Size"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:151
+msgid "Select the type of portfolio display"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:166
+msgid "Text"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:171
+msgid "Filter"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:172
+msgid "Only works with boxed"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:181
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:186
+msgid "Order by"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:196
+msgid "Order"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:205
+msgid "Auto Play"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:206
+#: includes/shortcodes/tinymce/config.php:215
+msgid "Only works with slider"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:214
+msgid "Loop"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:223
+msgid "Show More"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:224
+msgid "Show more button"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:233
+msgid "Speed to show next item"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:234
+msgid "If autoplay active (Only with slider)"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:238
+msgid "Portfolio Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:249
+msgid "Accordion Content Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:255
+#: includes/shortcodes/tinymce/config.php:672
+#: includes/shortcodes/tinymce/config.php:701
+#: includes/widgets/instagram/instagram-widget.php:276
+#: includes/widgets/latest-posts.php:96 includes/widgets/popular-posts.php:59
+#: includes/widgets/portfolio.php:80
+msgid "Title:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:262
+#: includes/shortcodes/tinymce/config.php:331
+#: includes/shortcodes/tinymce/config.php:708
+msgid "Content:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:263
+#: includes/shortcodes/tinymce/config.php:709
+msgid "Add the toggle content. (HTML Accepted)"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:268
+msgid "Click to Add Another Accordion"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:280
+msgid "Color"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:297
+msgid "Width"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:307
+msgid "Margin Top"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:313
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:318
+msgid "Separator Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:336
+msgid "Text Color"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:342
+msgid "Width (%)"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:348
+msgid "Line Height (px)"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:353
+msgid "Background Color"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:358
+msgid "Border Color"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:363
+#: includes/shortcodes/tinymce/config.php:488
+#: includes/shortcodes/tinymce/config.php:611
+#: includes/shortcodes/tinymce/config.php:650
+#: includes/shortcodes/tinymce/config.php:880
+msgid "Font Family:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:370
+msgid "Blockquote Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:390
+msgid "Pagination"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:399
+msgid "Navigation"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:408
+msgid "Items Per Slide"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:419
+msgid "Slider Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:432
+msgid "Button URL:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:438
+#: includes/shortcodes/tinymce/config.php:805
+msgid "Link Target:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:450
+#: includes/shortcodes/tinymce/config.php:787
+msgid "Size:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:463
+msgid "Button Text:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:468
+#: includes/shortcodes/tinymce/config.php:637
+msgid "Color:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:473
+msgid "Hover Color:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:478
+#: includes/shortcodes/tinymce/config.php:643
+#: includes/shortcodes/tinymce/config.php:826
+msgid "Background Color:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:483
+msgid "Hover Background Color:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:494
+msgid "Font Style:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:504
+msgid "Text Align:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:515
+msgid "Icon:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:522
+#: includes/shortcodes/tinymce/config.php:816
+msgid "Icon Color:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:531
+msgid "Button Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:540
+msgid "Column Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:547
+msgid "Column Size:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:567
+msgid "Column Content:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:573
+msgid "Click to Add Another Column"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:596
+msgid "Letter"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:601
+msgid "Letter Color"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:606
+msgid "Background Color (Only for Square and Circle type)"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:618
+msgid "Dropcaps Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:631
+msgid "Text:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:656
+msgid "Highlight Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:666
+msgid "Tab Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:678
+msgid "Tab Content:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:684
+msgid "Click to Add Another Tab"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:695
+msgid "Toggle Content Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:714
+msgid "Click to Add Another Toggle"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:736
+msgid "Select Icon:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:800
+msgid "Icon Link URL:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:821
+msgid "Icon Hover Color:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:831
+msgid "Background Hover Color:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:837
+msgid "Social Icon Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:849
+msgid "Number Type"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:859
+msgid "Style"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:869
+msgid "Font Weight"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:888
+msgid "Unordered List Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:896
+msgid "Row Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:901
+msgid "Margin:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:917
+msgid "Container Shortcode"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:922
+msgid "Container:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:931
+msgid "Padding:"
+msgstr ""
+
+#: includes/shortcodes/tinymce/config.php:932
+msgid "0px 0px 0px 0px"
+msgstr ""
+
+#: includes/sidebar/sidebar.php:6
+msgid "Page Sidebar"
+msgstr ""
+
+#: includes/sidebar/sidebar.php:8
+msgid ""
+"This area should only be used for menu selected sidebar in theme options"
+msgstr ""
+
+#: includes/sidebar/sidebar.php:16
+msgid "Blog Widget Area"
+msgstr ""
+
+#: includes/sidebar/sidebar.php:18
+msgid ""
+"This area should only be used if you want to have a sidebar in your blog "
+"single pages"
+msgstr ""
+
+#: includes/update.php:69
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: includes/update.php:74
+msgid "An unknown error occurred"
+msgstr ""
+
+#: includes/widgets/instagram.php:25
+msgid "WD Instagram Widget"
+msgstr ""
+
+#: includes/widgets/instagram.php:26
+msgid "Displays your latest Instagram photos"
+msgstr ""
+
+#: includes/widgets/instagram.php:90
+msgid "Instagram"
+msgstr ""
+
+#: includes/widgets/instagram.php:90
+msgid "Follow Me!"
+msgstr ""
+
+#: includes/widgets/instagram.php:99
+msgid "Username"
+msgstr ""
+
+#: includes/widgets/instagram.php:100
+msgid "Number of photos"
+msgstr ""
+
+#: includes/widgets/instagram.php:101
+msgid "Open links in"
+msgstr ""
+
+#: includes/widgets/instagram.php:103
+msgid "Current window (_self)"
+msgstr ""
+
+#: includes/widgets/instagram.php:104
+msgid "New window (_blank)"
+msgstr ""
+
+#: includes/widgets/instagram.php:133
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: includes/widgets/instagram.php:136
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: includes/widgets/instagram.php:143 includes/widgets/instagram.php:148
+#: includes/widgets/instagram.php:152
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: includes/widgets/instagram.php:180
+msgid "Instagram Image"
+msgstr ""
+
+#: includes/widgets/instagram.php:213
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: includes/widgets/instagram/instagram-widget.php:19
+msgid "A widget that ellions your Instagram feed."
+msgstr ""
+
+#: includes/widgets/instagram/instagram-widget.php:281
+msgid "Client ID:"
+msgstr ""
+
+#: includes/widgets/instagram/instagram-widget.php:286
+msgid "Client Secret:"
+msgstr ""
+
+#: includes/widgets/instagram/instagram-widget.php:291
+msgid "Access Token: "
+msgstr ""
+
+#: includes/widgets/instagram/instagram-widget.php:333
+msgid "Show:"
+msgstr ""
+
+#: includes/widgets/instagram/instagram-widget.php:341
+msgid "Cache every:"
+msgstr ""
+
+#: includes/widgets/latest-posts.php:13
+msgid "Display your recent posts with thumbnails."
+msgstr ""
+
+#: includes/widgets/latest-posts.php:100
+msgid "Select post type(s):"
+msgstr ""
+
+#: includes/widgets/latest-posts.php:111 includes/widgets/portfolio.php:85
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets/popular-posts.php:11
+msgid "WD Popular Posts"
+msgstr ""
+
+#: includes/widgets/popular-posts.php:11
+msgid "Show the most popular posts"
+msgstr ""
+
+#: includes/widgets/popular-posts.php:65
+msgid "Number to Show:"
+msgstr ""
+
+#: includes/widgets/portfolio.php:13
+msgid "Display your recent portfolios thumbnails."
+msgstr ""
+
+#: includes/widgets/twitter/tweets-widget.php:17
+msgid "Display your most recent tweets with API."
+msgstr ""
+
+#: search.php:14
+#, php-format
+msgid "Results for: %s"
+msgstr ""
+
+#: single.php:27
+msgid "Pages:"
+msgstr ""
+
+#: tag.php:7
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Ellion"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://premiumwd.com/wp-premium-themes/portfolio/ellion"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Ellion is a portfolio theme that gives the best of all my previous themes "
+"with multiple portfolio layouts and modular shortcodes to build out the "
+"theme your way."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "premiumwd"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://premiumwd.com/"
+msgstr ""

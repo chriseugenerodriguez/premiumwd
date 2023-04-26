@@ -1,0 +1,29 @@
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#access ul li.current-menu-parent > a, #access ul li.current-menu-item > a, #access ul li.current-menu-ancestor > a, #access ul li > a:hover, #access ul.sub-menu li a:hover {color: #F56778 !important;}
+
+
+/************************************************************************************
+BODY
+*************************************************************************************/
+.comment-title, .respond{border-bottom:1px solid #cdcdcd;}
+#main-column a.button, #commentform #submit, #commentform #submit, .call a.button, .arl.active:hover, .arr.active:hover  {background:#f36f7f !important;}
+#main-column a.button:hover, #commentform #submit:hover, #commentform #submit:hover, .call a.button:hover {background:#ff5367 !important;}
+#main-column .post-icon {background-color:#f5e5e7;}
+#entry-author-info {background:#f8f1f2;border:1px solid #ddced0;}
+#pagination ul li a, #portfolio-navi a , ul.recent-news li .date .month, .post .date .day  {background:#f8f1f2;}
+#pagination ul li a:hover, #portfolio-navi a:hover, ul.recent-news li .date .year, .post .date .month {background:#a0888b;}
+.tabs-horizontal ul.tabs a.active {border-top: 1px solid #f36f7f;color: #e6162e;}
+.cv-tabs-nav span a.cv-tabs-current {border-left:1px solid #f36f7f;color: #e6162e;}
+.bar_wrap .skill-percentage, .pricing .featured .join {background:#f36f7f;}
+.pricing .featured .join:hover {background:#e95a6b;}
+.pricing .price-table.featured h2 {background:#e95a6b;}
+.pricing .price-table.featured h4 {background:#dd4c5d;}
+
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footer-widget-area .widget_tag_cloud .tagcloud a {background-color:#FF8E5E;border:1px solid #FF8E5E;}
+#footer .flickr_widget ul li:hover {border: 5px solid #f36f7f;}

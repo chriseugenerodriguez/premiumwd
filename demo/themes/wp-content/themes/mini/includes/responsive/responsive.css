@@ -1,0 +1,1035 @@
+.mobile header .container .columns {
+    margin: 0!important
+}
+
+.mobile #sidebar,
+.mobile #header-search i,
+.mobile #main-nav {
+    display: none
+}
+
+.mobile #mobile-nav {
+    z-index: 1;
+    color: #fff;
+    display: table-cell;
+    font-size: 14px;
+    position: absolute;
+    vertical-align: middle;
+    top: 5px;
+}
+
+.mobile .bread-nav,
+.mobile .bread-nav span {
+    text-align: center!important
+}
+
+.mobile.page-template-blog p,
+.mobile.page-template-blog-sidebar p,
+.mobile.archive article.hentry p,
+.mobile.single .format-container p {
+    width: 100%!important
+}
+
+.mobile .bread-nav .six {
+    margin-bottom: 10px
+}
+
+.mobile #mobile-nav {
+    right: 0px;
+    cursor: pointer
+}
+
+.mobile #mobile-nav ul.hamburger {
+    margin: 0px;
+    display: inline-block;
+    list-style: outside none none;
+    padding: 0;
+    position: relative;
+    -webkit-transition: all 233ms cubic-bezier(0.5, 0, 0, 1) 0;
+    transition: all 233ms cubic-bezier(0.5, 0, 0, 1) 0;
+    width: 18px
+}
+
+.mobile #mobile-nav ul.hamburger li {
+    list-style: none;
+    background: #333;
+    float: left;
+    height: 2px;
+    margin: 6px 0 0;
+    padding: 0;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-transition: all 333ms cubic-bezier(0.5, 0, 0, 1) 0;
+    transition: all 333ms cubic-bezier(0.5, 0, 0, 1) 0;
+    width: 18px
+}
+
+.mobile #mobile-nav ul.hamburger.checked li.first {
+    -webkit-transform: rotate(-136deg) translateY(-11px) translateX(1.5px);
+    -ms-transform: rotate(-136deg) translateY(-11px) translateX(1.5px);
+    transform: rotate(-136deg) translateY(-11px) translateX(1.5px);
+}
+
+.mobile #mobile-nav ul.hamburger.checked li.second {
+    opacity: 0
+}
+
+.mobile #mobile-nav ul.hamburger.checked li.third {
+    -webkit-transform: rotate(136deg) translateY(12px) translateX(0px);
+    -ms-transform: rotate(136deg) translateY(12px) translateX(0px);
+    transform: rotate(136deg) translateY(12px) translateX(0px);
+}
+
+.mobile header.transparent.affix-top #mobile-nav ul.hamburger.background--dark li {
+    background: #fff;
+}
+
+.mobile #mobile-cart {
+    right: 20px
+}
+
+.mobile .bread-nav,
+.mobile .product .sharing .sku_wrapper {
+    display: none
+}
+
+.mobile .posted_in {
+    margin-top: 20px!important
+}
+
+.mobile #mobile-cart a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px
+}
+
+.mobile header .main-nav {
+    padding: 0
+}
+
+.mobile #footer-bottom .columns {
+    margin-top: 5px!important;
+    margin-bottom: 5px!important
+}
+
+.mobile #footer-bottom .menu-footer ul,
+.mobile #footer-bottom #copyright,
+.mobile #footer .social-links {
+    text-align: center
+}
+
+.mobile #footer {
+    padding-top: 20px;
+    margin: 0
+}
+
+.mobile .content .post-nav {
+    margin: 20px 0
+}
+
+.mobile .post h2,
+.mobile .post-meta,
+.mobile .pad.post-content,
+.mobile .pad.format-container,
+.mobile .content .post-nav li.next a,
+.mobile .content .post-nav li.previous a {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.mobile #theme-wrapper #container,
+.mobile .portfolio-title {
+    margin: 0
+}
+
+.mobile header#main .top-nav .container {
+    text-align: center;
+    padding: 4px 20px
+}
+
+.mobile #mobile-menu ul li a span.mobile-arrow {
+    height: auto;
+    left: auto!important;
+    padding: 16px;
+    position: absolute;
+    right: 0!important;
+    top: 0!important;
+    width: auto
+}
+
+.mobile blockquote {
+    width: 100% !important;
+    margin: 20px 0;
+    padding: 0px;
+}
+
+.mobile blockquote h5 {
+    padding: 0px !important;
+}
+
+.mobile blockquote i {
+    display: none;
+}
+
+.mobile #shareme li {
+    width: 25%;
+    margin: 0px;
+}
+
+.mobile .slider-container {
+    margin: 0
+}
+
+.mobile .post-tags {
+    width: 100%;
+    margin-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.mobile .grey-section,
+.mobile .white-section,
+.mobile .black-section,
+.mobile .littlepadding {
+    padding: 70px 20px;
+}
+
+.responsive .mobile.page-template-blog .blog,
+.responsive .mobile.archive .blog,
+.responsive .mobile.search .blog,
+.responsive .mobile.woocommerce-page .nine.columns {
+    margin: 0px;
+    width: 100%;
+}
+
+.responsive .mobile.single .content {
+    margin-top: 0px;
+}
+
+.responsive .mobile.single .blog {
+    width: auto !important;
+}
+
+.responsive .mobile .blog .hentry {
+    padding: 0 !important;
+    max-width: 100%;
+}
+
+.responsive .mobile .blog .content {
+    margin-left: 0;
+    margin-top: 0px;
+}
+
+.responsive .mobile .content .post-nav li div {
+    display: none;
+}
+
+.responsive .mobile .footer.regular .copyrights {
+    margin: 0px;
+}
+
+.search.mobile blockquote p,
+.page-template-blog.mobile blockquote p,
+.page-template-blog-sidebar.mobile blockquote p,
+.archive.mobile article.hentry blockquote p,
+.single.mobile article.hentry blockquote p,
+.mobile h2.post-title {
+    font-size: 18px !important;
+}
+
+#mobile-menu,
+#theme-wrapper {
+    transition: all 500ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: all 500ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-transition: all 500ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+#mobile-menu {
+    background-color: #1b1b1b;
+    display: block;
+    height: 100%;
+    right: -250px;
+    min-height: 100%;
+    overflow-y: auto;
+    padding: 30px;
+    position: fixed;
+    width: 250px;
+    z-index: 99999;
+}
+
+#theme-wrapper.side-menu {
+    right: 250px
+}
+
+#mobile-menu {
+    right: -250px;
+}
+
+#theme-wrapper,
+#mobile-menu.side-menu {
+    right: 0
+}
+
+#mobile-menu .inner {
+    color: #fafafa;
+    font-size: .875em;
+    margin: 0 0 43px;
+    position: relative
+}
+
+#mobile-menu ul {
+    margin: 0;
+    list-style: none
+}
+
+#mobile-menu ul li {
+    list-style: none;
+}
+
+#mobile-menu .sub-menu.container {
+    padding: 0
+}
+
+#mobile-menu #mobile-search i.fa fa-search {
+    color: #aaa;
+    position: absolute;
+    font-size: 12px;
+    left: 13px;
+    top: 15px
+}
+
+#mobile-menu input[type="text"] {
+    background-color: #292929;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-style: none!important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7) inset;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px
+}
+
+#mobile-menu #mobile-search {
+    position: relative;
+    margin: 10px 0 0
+}
+
+#mobile-menu .container > ul > li:last-child {
+    padding-bottom: 10px
+}
+
+#mobile-menu ul li a {
+    letter-spacing: 1px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    font-size: 14px;
+    padding: 16px 0!important;
+    text-transform: uppercase;
+    position: relative
+}
+
+#mobile-menu ul li a:hover {
+    color: #fff
+}
+
+#mobile-menu ul li ul {
+    width: auto;
+    display: none;
+    margin-left: 20px!important
+}
+
+#mobile-menu ul li ul li a {
+    text-transform: none
+}
+
+#mobile-menu ul li ul li {
+    margin-bottom: 0!important;
+    padding-right: 0
+}
+
+#mobile-menu span.arrow,
+#mobile-menu span.sub-arrow {
+    position: absolute;
+    right: 0
+}
+
+.responsive .container .one.column {
+    width: 6.33%
+}
+
+.responsive .two.columns {
+    width: 14.167%
+}
+
+.responsive .three.columns {
+    width: 23%
+}
+
+.responsive .four.columns {
+    width: 31.3333%
+}
+
+.responsive .five.columns {
+    width: 39.25%
+}
+
+.responsive .six.columns {
+    width: 47.5%
+}
+
+.responsive .seven.columns {
+    width: 56.31%
+}
+
+.responsive .eight.columns {
+    width: 64.6666%
+}
+
+.responsive .nine.columns {
+    width: 72.1%
+}
+
+.responsive .ten.columns {
+    width: 81.3%
+}
+
+.responsive .eleven.columns {
+    width: 90.13%
+}
+
+.responsive .twelve.columns {
+    width: 98%
+}
+
+.responsive .mobile section.header-title {
+    padding: 0px;
+    min-height: inherit !important;
+}
+
+.responsive .mobile .transparent.grey-section .container .topheader .wrapper {
+    vertical-align: bottom;
+    padding: 80px 20px 40px;
+}
+
+.responsive .mobile .grey-section:not(.transparent) .container .topheader .wrapper {
+    padding: 40px 0px;
+}
+
+.responsive .mobile .transparent.grey-section .container,
+.responsive .mobile .full-height .container {
+    position: relative;
+}
+
+.responsive .mobile.single section.grey-section {
+    min-height: inherit !important;
+}
+
+.responsive .mobile .post-title {
+    font-size: 24px;
+    line-height: 1.3em;
+}
+
+.responsive .page-template-blank article .row,
+.responsive article .container {
+    padding: 0px 20px;
+}
+
+.responsive .mobile .count-down span {
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.responsive .column,
+.responsive .columns {
+    margin: 0 1%
+}
+
+.responsive .mobile.single-post .share {
+    padding: 0px !important;
+    margin: 20px 0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.responsive .mobile.single-post #shareme {
+    width: 100%;
+    text-align: center;
+}
+
+.responsive .mobile.single-post #shareme ul {
+    float: none;
+}
+
+.responsive .mobile .latest_post_holder.boxed > ul > li.three.columns,
+.responsive .mobile .latest_post_holder.boxed > ul > li.four.columns {
+    padding: 0px;
+}
+
+.responsive .mobile .alotofpadding {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.responsive #mobile-menu .header-meta {
+    margin: 0 0 20px 0;
+    float: none;
+    display: block;
+}
+
+.responsive #mobile-menu .header-meta > li {
+    margin: 0px;
+    display: block;
+    float: none;
+    line-height: inherit;
+}
+
+.responsive #mobile-menu ul li.bag a span {
+    position: inherit;
+    padding: 3px 7px;
+    top: -2px;
+}
+
+.item-w1 {
+    width: 19.96%;
+}
+
+.item-w2 {
+    width: 39.96%;
+}
+
+@media all and (min-width:905px) and (max-width:1376px) {
+    .item-w1 {
+        width: 32.96% !important;
+    }
+    .item-w2 {
+        width: 66.5% !important;
+    }
+}
+
+@media all and (min-width:767px) and (max-width: 904px) {
+    .item-w1 {
+        width: 49.96% !important;
+    }
+    .item-w2 {
+        width: 99.96% !important;
+    }
+}
+
+@media all and (max-width: 766px) {
+    .item-w1,
+    .item-w2 {
+        width: 99.96% !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .responsive header .menu-header ul.sub-menu {
+        right: -100% !important;
+    }
+    .responsive header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .responsive .container-fluid,
+    .responsive footer .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .responsive form.woocommerce-checkout,
+    .responsive article.group .woocommerce {
+        padding: 0px 20px;
+    }
+    .responsive .product .container,
+    .responsive .woocommerce-tabs .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .responsive .content-product.summary .cart .button {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* BLOG */
+    .responsive .topheader h1 {
+        font-size: 28px;
+    }
+    .responsive .mobile .topheader p {
+        font-size: 14px;
+        line-height: inherit;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .responsive header .menu-header ul.sub-menu {
+        right: -300% !important;
+    }
+    .responsive footer .three.columns {
+        width: 48%;
+        margin-bottom: 40px;
+    }
+    .responsive .single section.grey-section {
+        padding: 3% 2%;
+    }
+    .responsive .widget_recent_posts .entry-content-wrap {
+        margin: 0px;
+    }
+    .responsive .widget_recent_posts a img {
+        display: none;
+    }
+    .responsive .images-slider {
+        margin-right: 0px;
+    }
+    .responsive .content-product.summary {
+        width: 30%;
+    }
+    .responsive .images-slider {
+        margin-bottom: 40px;
+    }
+    .responsive .images-slider .thumbnails {
+        position: static;
+        width: 100%;
+    }
+    .responsive .images-slider .thumbnails a {
+        width: 75px;
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .responsive .product .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .responsive .woocommerce #shareme li {
+        margin: 0 2%;
+        width: 5%;
+    }
+    .responsive .related.products {
+        display: none;
+    }
+    .responsive .woocommerce .white-section {
+        padding: 0px;
+    }
+    .responsive .images-slider,
+    .responsive .content-product.summary {
+        width: 100%;
+    }
+    .responsive .woocommerce-page .white-section {
+        overflow: visible;
+    }
+    .responsive .woocommerce-page .side-bar {
+        position: static;
+    }
+    .responsive .woocommerce-page .catalog_top .filter {
+        display: block;
+    }
+    .responsive header {
+        padding-bottom: 17px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .responsive header.affix {
+        padding: 8px 15px;
+    }
+    .responsive .three.columns.stat-wrap,
+    .responsive .row .three.columns:first-child:nth-last-child(4),
+    .responsive .row .three.columns:first-child:nth-last-child(4) ~ div {
+        width: 48%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .responsive .isotope-item {
+        margin-right: 2%;
+        width: 45%
+    }
+    .responsive .container,
+    .responsive .container-fluid {
+        width: 100%;
+        max-width: 95%
+    }
+    .responsive .counter_holder span,
+    .responsive .count-down span span {
+        font-size: 40px;
+    }
+    .responsive .gallery div {
+        width: 50%;
+    }
+    .responsive .call-to-action .text-wrapper,
+    .responsive .call-to-action .button-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .responsive .call-to-action .button-wrapper .button {
+        position: inherit;
+        top: inherit;
+        right: inherit;
+        margin: 30px 0 0;
+    }
+    .responsive .jp-progress-container {
+        margin-right: 10px;
+    }
+    .responsive article .container .container,
+    .responsive .grey-section .container,
+    .responsive .grey-section .container .littlepadding,
+    .responsive form.woocommerce-checkout,
+    .responsive article.group .woocommerce {
+        padding: 0px;
+    }
+    .responsive .woocommerce-cart .woocommerce form,
+    .responsive .cart-collaterals {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .responsive .shop_table thead tr th.product-thumbnail,
+    .responsive .shop_table td.product-thumbnail {
+        display: none;
+    }
+    .responsive #theme-wrapper #sidebar {
+        width: 300px;
+        background: #fff;
+        display: none;
+        margin: 0;
+        padding: 30px;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        -ms-transform: translate(-50%, 0%);
+        transform: translate(-50%, 0%);
+        -moz-transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        z-index: 120;
+    }
+    .responsive .woocommerce-page #theme-wrapper .black.overlay {
+        background: rgba(0, 0, 0, .7);
+        z-index: 120;
+    }
+    .responsive .woocommerce-page #theme-wrapper .close {
+        position: absolute;
+        display: none;
+        color: #fff;
+        top: 10px;
+        right: 15px;
+        cursor: pointer;
+    }
+    /* BLOG */
+    .responsive .topheader h1 {
+        font-size: 24px;
+        line-height: 1.3em;
+    }
+    .responsive .page-title h1 {
+        text-align: center
+    }
+    .responsive #ajax-contact-form {
+        margin-bottom: 25px
+    }
+    .responsive #blog-similar-posts li {
+        float: left;
+        margin: 0 0 10px;
+        width: 48.5%
+    }
+    .responsive #blog-similar-posts li:nth-child(2n) {
+        margin-left: 10px
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .responsive .woocommerce #shareme li {
+        width: 15%;
+    }
+    .responsive #tab-description {
+        padding: 54px 40px;
+        font-size: 16px;
+    }
+    .responsive .woocommerce-tabs #tab-additional_information,
+    .responsive .woocommerce-tabs div[itemprop="description"] {
+        width: 100%;
+        margin: 0px;
+    }
+    .responsive header.affix {
+        top: 0px;
+    }
+    .responsive .one.column,
+    .responsive .two.columns,
+    .responsive .three.columns,
+    .responsive .four.columns,
+    .responsive .five.columns,
+    .responsive .six.columns,
+    .responsive .seven.columns,
+    .responsive .eight.columns,
+    .responsive .nine.columns,
+    .responsive .ten.columns,
+    .responsive .eleven.columns,
+    .responsive .twelve.columns,
+    .responsive footer .three.columns {
+        width: 100%;
+    }
+    .responsive .column,
+    .responsive .columns {
+        float: none;
+        display: block;
+        margin: 0 0 20px;
+    }
+    .responsive .shop_table thead tr th.product-quantity,
+    .responsive .shop_table td.product-quantity {
+        display: none;
+    }
+    .responsive .shop_table .coupon {
+        width: 100%;
+    }
+    .responsive .post-nav,
+    .responsive .shop_table .actions input[name="update_cart"] {
+        display: none
+    }
+    .responsive .woocommerce-page .products li {
+        width: 48.5%;
+    }
+    .responsive .woocommerce-page .products li:nth-child(even) {
+        margin-right: 0px;
+    }
+    .responsive .woocommerce-page .products li:nth-child(odd) {
+        margin-right: 3%;
+    }
+}
+
+@media only screen and (min-width: 471px) and (max-width: 600px) {
+    .responsive .three.columns.stat-wrap,
+    .responsive .row .three.columns:first-child:nth-last-child(4),
+    .responsive .row .three.columns:first-child:nth-last-child(4) ~ div {
+        width: 48%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .responsive .isotope-item {
+        margin-right: 2%;
+        width: 45%
+    }
+    .responsive #post-area.masonry {
+        margin-left: 20px
+    }
+    .responsive #blog-similar-posts li {
+        float: left;
+        margin: 0 0 10px;
+        width: 48.5%
+    }
+    .responsive #blog-similar-posts li:nth-child(2n) {
+        margin-left: 10px
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .responsive .woocommerce-MyAccount-content,
+    .responsive .woocommerce-MyAccount-navigation {
+        float: none;
+        width: 100%;
+    }
+    .responsive .woocommerce-MyAccount-navigation {
+        margin-bottom: 20px;
+    }
+    .responsive #tab-reviews #reviews {
+        width: 90%;
+    }
+    .responsive .instagram-image-wrapper li img,
+    .responsive .widget_recent_portfolio li img,
+    .responsive .flickr_widget li img,
+    .responsive .widget_rcp_recent_custom_posts ul li img {
+        height: 70px;
+        width: 70px;
+    }
+    .responsive .content-product.summary {
+        padding: 0 10px;
+    }
+    .responsive .woocommerce table.shop_attributes tr p {
+        margin: 0px;
+    }
+    .responsive .woocommerce table.shop_attributes tr {
+        margin-bottom: 20px;
+    }
+    .responsive .woocommerce table.shop_attributes th,
+    .responsive .woocommerce-page table.shop_attributes th,
+    .responsive .woocommerce table.shop_attributes tr {
+        width: 100%;
+        display: block;
+    }
+    .responsive .woocommerce .catalog_top p {
+        display: block;
+        margin: 0 0 20px;
+        text-align: center;
+        float: none;
+    }
+    .responsive .woocommerce #theme-wrapper .side-bar #sidebar {
+        width: auto;
+        margin: 0px 20px;
+        -ms-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
+        -moz-transform: translate(0%, 0%);
+        -webkit-transform: translate(0%, 0%);
+        left: 0;
+    }
+    .responsive #ajax-contact-form input[type="text"],
+    .responsive #ajax-contact-form .textbox,
+    .responsive #respond input[type="text"],
+    .responsive div.comment_form {
+        margin: 0px;
+    }
+    .responsive #ajax-contact-form input.captcha {
+        margin-bottom: 20px;
+    }
+    .responsive .three.columns.stat-wrap,
+    .responsive .row .three.columns:first-child:nth-last-child(4),
+    .responsive .row .three.columns:first-child:nth-last-child(4) ~ div {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .responsive #shareme li i {
+        margin: 0px;
+    }
+    .responsive #shareme li {
+        text-align: center;
+    }
+    .responsive #owl-text h1,
+    .responsive #owl-text h2,
+    .responsive #owl-text h3,
+    .responsive #owl-text h4,
+    .responsive #owl-text h5,
+    .responsive #owl-text h6 {
+        font-size: 15px;
+    }
+    .responsive .fullscreen .buttons a {
+        margin: 0 0 20px 0;
+    }
+    .responsive .mobile.single-post .share {
+        margin: 20px 0 40px !important;
+    }
+    .responsive #map {
+        height: 200px!important
+    }
+    .responsive #shareme {
+        position: inherit;
+        top: 0;
+        left: 0
+    }
+    .responsive #shareme ul {
+        position: relative
+    }
+    .responsive #shareme ul li {
+        height: auto;
+        padding: 0 10px;
+        float: left;
+        width: 25%
+    }
+    .responsive #shareme li i {
+        width: auto;
+        display: inline-block
+    }
+    .responsive #shareme li:first-child,
+    .responsive #shareme li:last-child {
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0
+    }
+    .responsive .footer-info {
+        padding: 0
+    }
+    .responsive .post-meta,
+    .responsive .single .topheader .separator,
+    .responsive .back-top {
+        display: none !important;
+    }
+    .responsive .isotope-item {
+        width: 100%!important
+    }
+    .responsive .post-nav,
+    .responsive .shop_table thead tr th.product-subtotal,
+    .responsive .shop_table td.product-subtotal {
+        display: none
+    }
+    .responsive .format-link .format-container i,
+    .responsive .portfolio_navigation {
+        display: none
+    }
+    .responsive .page-template-blog .post-format iframe {
+        height: auto
+    }
+    .responsive #commentform .row {
+        padding: 0
+    }
+    .responsive div.comment_form,
+    .responsive #comments {
+        padding: 0
+    }
+    .responsive article.post {
+        margin: 0
+    }
+    .responsive #blog-similar-posts li {
+        float: left;
+        margin-bottom: 10px;
+        width: 48.5%
+    }
+    .responsive .comment_holder .comment .image,
+    .navigation .next,
+    .navigation .previous {
+        display: none
+    }
+    .responsive .comment_holder .comment .text {
+        padding: 0;
+        min-height: inherit
+    }
+    .responsive .comment_holder .comment {
+        padding: 15px
+    }
+    .responsive .comment_holder .comment p:last-child {
+        margin: 0
+    }
+    .responsive .single iframe {
+        height: auto
+    }
+    .responsive .columns,
+    .responsive .column {
+        margin: 0 0 20px
+    }
+    .responsive .page-title .columns {
+        margin: 0
+    }
+    .responsive #commentform .four {
+        padding-left: 0!important;
+        padding-right: 0!important
+    }
+    .responsive #blog-similar-posts li img {
+        height: 80px
+    }
+    .responsive .isotope .isotope-item {
+        margin-bottom: 10%
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .responsive .woocommerce-page .products li {
+        width: 100%;
+    }
+    .responsive .woocommerce-page .products li:nth-child(odd) {
+        margin-right: 0%;
+    }
+    .responsive .post h2,
+    .responsive .single .post-title,
+    .responsive .page .post-title {
+        font-size: 20px
+    }
+    .responsive #blog-similar-posts li {
+        float: left;
+        margin: 0 0 10px;
+        width: 100%
+    }
+    .responsive #shareme li .count {
+        display: none
+    }
+    .responsive #shareme li i {
+        display: block;
+        padding: 5px 0
+    }
+}

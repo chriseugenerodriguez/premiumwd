@@ -1,0 +1,136 @@
+[24-08-2016 18:53:05] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.nettuts.com/feed". cURL error 6: Could not resolve host: www.nettuts.com
+
+
+[24-08-2016 19:30:31] [Error] WPRSS:
+The feed URL is not valid! Please recheck: 
+
+
+[24-08-2016 19:32:40] [Error] WPRSS:
+The feed URL is not valid! Please recheck: 
+
+[24-08-2016 19:33:44] [Error] WPRSS:
+The feed URL is not valid! Please recheck: 
+
+[24-08-2016 19:33:45] [Error] WPRSS:
+The feed URL is not valid! Please recheck: 
+
+[24-08-2016 19:33:56] [Error] WPRSS:
+The feed URL is not valid! Please recheck: 
+
+
+
+[26-08-2016 02:54:08] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://tutorialzine.com/feed/". cURL error 7: Failed to connect to tutorialzine.com port 80: Connection timed out
+
+
+[26-08-2016 20:26:08] [Error] WPRSS:
+The feed URL is not valid! Please recheck: 
+
+
+[09-09-2016 01:08:28] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.wpmayor.com/feed/". A feed could not be found at http://www.wpmayor.com/feed/. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed.
+
+
+[11-09-2016 09:02:49] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "https://speckyboy.com/feed/". The resource could not be retrieved because of a server error with code 500
+Server returned 1260 characters, of which 150 are below:
+<HTML>
+<HEAD>
+<TITLE>500 Internal Server Error</TITLE>
+</HEAD><BODY>
+<H1>Internal Server Error</H1>
+The server encountered an internal error or
+miscon
+
+
+[18-09-2016 10:14:01] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "https://speckyboy.com/feed/". cURL error 7: Failed to connect to speckyboy.com port 443: Connection timed out
+
+
+[30-09-2016 20:29:20] [Error] WPRSS > convert_to_post:
+Could not insert post into the database: Got error 28 from storage engine
+
+[30-09-2016 20:29:20] [Error] WPRSS > convert_to_post:
+Could not insert post into the database: Got error 28 from storage engine
+
+[30-09-2016 20:29:21] [Error] WPRSS > convert_to_post:
+Could not insert post into the database: Got error 28 from storage engine
+
+[30-09-2016 20:29:22] [Error] WPRSS > convert_to_post:
+Could not insert post into the database: Got error 28 from storage engine
+
+[30-09-2016 20:29:28] [Error] WPRSS > convert_to_post:
+Could not insert post into the database: Got error 28 from storage engine
+
+
+[02-10-2016 03:31:22] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.wpmayor.com/feed/". The resource could not be retrieved because of a server error with code 500
+Server returned 0 characters:
+
+
+
+[02-10-2016 03:40:36] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.wpmayor.com/feed/". The resource could not be retrieved because of a server error with code 504
+Server returned 1078 characters, of which 150 are below:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error Loading Site | 504 Gateway Timeout</title>
+</head>
+
+<body>
+    <style>
+@import url(http://fonts.googlea
+
+
+[02-10-2016 06:34:39] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.wpmayor.com/feed/". The resource could not be retrieved because of a server error with code 504
+Server returned 1078 characters, of which 150 are below:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error Loading Site | 504 Gateway Timeout</title>
+</head>
+
+<body>
+    <style>
+@import url(http://fonts.googlea
+
+
+[02-10-2016 06:44:10] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.wpmayor.com/feed/". The resource could not be retrieved because of a server error with code 504
+Server returned 1078 characters, of which 150 are below:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error Loading Site | 504 Gateway Timeout</title>
+</head>
+
+<body>
+    <style>
+@import url(http://fonts.googlea
+
+
+[02-10-2016 06:59:19] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.wpmayor.com/feed/". cURL error 7: Failed to connect to www.wpmayor.com port 80: Connection refused
+
+
+[02-10-2016 07:07:50] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.wpmayor.com/feed/". The resource could not be retrieved because of a server error with code 502
+Server returned 1180 characters, of which 150 are below:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error Loading Site | 502 Bad Gateway</title>
+</head>
+
+<body>
+    <style>
+@import url(http://fonts.googleapis.
+
+
+[07-10-2016 17:59:37] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.hongkiat.com/blog/feed/". The data could not be converted to UTF-8. You MUST have either the iconv or mbstring extension installed. Upgrading to PHP 5.x (which includes iconv) is highly recommended.
+
+

@@ -1,0 +1,29 @@
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#access ul li.current-menu-parent > a, #access ul li.current-menu-item > a, #access ul li.current-menu-ancestor > a, #access ul li > a:hover, #access ul.sub-menu li a:hover {color: #B9D972 !important;}
+
+
+/************************************************************************************
+BODY
+*************************************************************************************/
+.comment-title, .respond{border-bottom:1px solid #cdcdcd;}
+#main-column a.button, #commentform #submit, #commentform #submit, .call a.button, .arl.active:hover, .arr.active:hover  {background:#B9D972 !important;}
+#main-column a.button:hover, #commentform #submit:hover, #commentform #submit:hover, .call a.button:hover {background:#cae285 !important;}
+#main-column .post-icon {background-color:#e5f5e5;}
+#entry-author-info {background:#f3f8f1;border:1px solid #d3ddce;}
+#pagination ul li a, #portfolio-navi a , ul.recent-news li .date .month, .post .date .day  {background:#f3f8f1;}
+#pagination ul li a:hover, #portfolio-navi a:hover, ul.recent-news li .date .year, .post .date .month {background:#90a088;}
+.tabs-horizontal ul.tabs a.active {border-top: 1px solid #9af36f;color: #5be616;}
+.cv-tabs-nav span a.cv-tabs-current {border-left:1px solid #9af36f;color: #5be616;}
+.bar_wrap .skill-percentage, .pricing .featured .join {background:#9af36f;}
+.pricing .featured .join:hover {background:#89e95a;}
+.pricing .price-table.featured h2 {background:#89e95a;}
+.pricing .price-table.featured h4 {background:#7cdd4c;}
+
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footer-widget-area .widget_tag_cloud .tagcloud a {background-color: #B5DB4E;border:1px solid #B5DB4E;}
+#footer .flickr_widget ul li:hover {border: 5px solid #9af36f;

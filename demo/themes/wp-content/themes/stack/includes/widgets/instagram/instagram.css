@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------------*/
+/*  BEAN INSTAGRAM WIDGET - ABOARD
+/*--------------------------------------------------------------------*/
+div.widget.bean_instagram {
+    float: none;
+}
+
+.widget_bean_instagram h3.widget-title {
+	margin-bottom: 18px!important;
+}
+
+.instagram-image-wrapper {
+     float: left;
+     margin-bottom: -5px;
+     margin-left: -5px;
+}
+
+.instagram_badge_image,
+.instagram_badge_image a {
+	-webkit-transition: all 0.2s ;
+	   -moz-transition: all 0.2s ;
+	    -ms-transition: all 0.2s ;
+	     -o-transition: all 0.2s ;
+	     	transition: all 0.2s ;
+}	
+	  	
+.instagram_badge_image {
+	background: url(images/bean-instagram.png) no-repeat 50% 50%;
+	float: left;
+	margin: 0 0 5px 5px;  
+}
+
+.instagram_badge_image a:hover {
+    opacity: .2;
+}
+
+.instagram_badge_image a { 
+    float: left;
+    position: relative;  
+}
+
+.instagram_badge_image img {
+    float: left;
+    height: 54px;
+    width: 54px;
+}	
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 192dpi) {	
+	.instagram_badge_image {
+		background-image: url(images/bean-instagram@2x.png);
+		background-size: 16px 16px;
+	}
+}	

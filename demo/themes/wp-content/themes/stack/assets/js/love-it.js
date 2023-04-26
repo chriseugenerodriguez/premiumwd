@@ -1,0 +1,2 @@
+// Love it
+jQuery(document).ready(function(e){e(".love-it").on("click",function(){if(e(this).hasClass("loved"))return alert(love_it_vars.already_loved_message),!1;var t=e(this).data("post-id"),o=e(this).data("user-id"),a=e(this).data("lovecount"),i={action:"love_it",item_id:t,user_id:o,love_it_nonce:love_it_vars.nonce};return e.post(love_it_vars.ajaxurl,i,function(t){if("loved"==t){e(".love-it").addClass("loved");var o=e(".love-count");o.text(a+1),e(".love-it").data("lovecount",a+1)}else alert(love_it_vars.error_message)}),!1})});

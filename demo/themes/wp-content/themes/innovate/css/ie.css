@@ -1,0 +1,147 @@
+/* IE6 css fixer v0.95: Wed, 12 Sep 2012 20:12:37 +0200 */
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add display:inline to floated elements */
+#crumbs,
+ul#crumbs li,
+#primary,#secondary,
+#third,
+#portfolio-filter,
+#portfolio-filter li,
+.thumb,
+.thumb-2-column-rs,
+.thumb-2-column-ls,
+.thumb-2-column-ns,
+.thumb-3-column-rs,
+.thumb-3-column-ls,
+.thumb-3-column-ns,
+.thumb-4-column-rs,
+.thumb-4-column-ls,
+.thumb-4-column-ns,
+.thumb-5-column-rs,
+.thumb-5-column-ls,
+.thumb-5-column-ns,
+.blog-details,
+.blog-1-style-thumb,
+.blog-2-style-thumb,
+.blog-2-style-thumb-ns,
+.blog-2-details,
+.blog-3-details,
+.blog-3-details-ns,
+.blog-3-excerpt,
+.blog-4-time,
+.column,.columns,
+#footer-widget-area .widget-area,
+#site-generator,
+#footer-credential,
+#site-title,
+#site-description,
+#branding img,
+.nav-menus,
+#access,
+#access .menu-header li,div.menu li,
+.entry-content blockquote.left,
+.entry-content blockquote.right,
+#entry-author-info #author-avatar,
+#entry-author-info #author-description,
+.fit,
+.format-gallery .gallery-thumb,.category-gallery .gallery-thumb,
+.top-menu-wrapper li,
+.top-menu-wrapper,
+.bottom-menu-wrapper li,
+.bottom-one-half,
+.bottom-two-half,
+.alignleft,img.alignleft,
+.alignright,img.alignright,
+.gallery .gallery-item,
+.nav-previous,
+.nav-next,
+.social-wrapper,
+.social-wrapper ul,
+.social-wrapper ul li,
+.top-search,
+.top-search #searchsubmit,
+.tagcloud a,
+#relatedposts ul,
+#relatedposts ul li,
+#contactform form label,
+.call,
+.flickr_widget ul li,
+.widget_rcp_recent_custom_posts img,
+#sc_select,.comment-reply,
+.facebook,.google,.pininterest,
+.twitter,.digg,.linkedin {display:inline;}
+
+/* convert min height values */
+img.bg {height:100%;}
+#header-top {height:53px;}
+
+
+/* fix negative margins */
+#content table,
+.home .sticky,
+#entry-author-info #author-avatar,
+.format-gallery .gallery-thumb,.category-gallery .gallery-thumb,
+.commentlist li.comment+li.pingback {position:relative; zoom:1;}
+
+/* add zoom:1 to overflow:hidden */
+#primary,
+#secondary,
+#third,
+#footer-widget-area,
+#main,
+#entry-author-info,
+.navigation,
+#respond {zoom:1;}
+
+/* add zoom:1 to pos:relative elements */
+#footer,
+#portfolio-filter,
+.blog-1-style-thumb,
+.blog-2-style-thumb,
+.blog-2-style-thumb-ns,
+.blog-3-style-thumb,
+.blog-3-style-thumb-ns,
+.blog-4-style-thumb,
+.blog-4-style-thumb-ns,
+.column,
+.columns,
+#site-generator,
+sup,
+sub,
+#header,
+#header-top,
+#access .menu-header li,
+div.menu li,
+#access a,
+.commentlist li.comment,
+.comments-list &gt; li.comment,
+#colophon,
+#wrapper {zoom:1;}
+
+/* add transparancy */
+#site-title a {filter:progid:DXImageTransform.MicroSoft.Alpha(opacity=80);}
+#content img {filter:progid:DXImageTransform.MicroSoft.Alpha(opacity=80);}
+.box img {filter:progid:DXImageTransform.MicroSoft.Alpha(opacity=90);}
+#relatedposts img {filter:progid:DXImageTransform.MicroSoft.Alpha(opacity=80);}
+ul li .caption {filter:progid:DXImageTransform.MicroSoft.Alpha(opacity=50);}
+.widget_rcp_recent_custom_posts img {filter:progid:DXImageTransform.MicroSoft.Alpha(opacity=80);}
+.author a,.calender a,.social-wrapper a,.flickr_widget ul li a {filter:progid:DXImageTransform.MicroSoft.Alpha(opacity=80);}
+.author a:hover,.calender a:hover,.blog-1-style-thumb img:hover,.blog-2-style-thumb img:hover,.blog-2-style-thumb-ns img:hover,.blog-3-style-thumb img:hover,.blog-3-style-thumb-ns img:hover,.blog-4-style-thumb img:hover,.blog-4-style-thumb-ns img:hover,#content img:hover,.box img:hover,.social-wrapper a:hover,#relatedposts img:hover,.flickr_widget ul li a:hover,.widget_rcp_recent_custom_posts img:hover {filter:progid:DXImageTransform.MicroSoft.Alpha(opacity=100);}
+.blog-1-style-thumb img,.blog-2-style-thumb img,.blog-2-style-thumb-ns img,.blog-3-style-thumb img,.blog-3-style-thumb-ns img,.blog-4-style-thumb img,.blog-4-style-thumb-ns img {filter:progid:DXImageTransform.MicroSoft.Alpha(opacity=90);}
+
+
+/* add zoom:1; display:inline; to inline-block elements */
+#main-column,
+#portfolio-filter,
+.blog-3-header,
+.blog-4-header,
+#comments,
+#respond .form-submit input,
+.breadcrumb,
+#site-generator a {zoom:1; display:inline;}
+
+/* add overflow:visible to (submit) buttons */
+ input, button {overflow:visible;}

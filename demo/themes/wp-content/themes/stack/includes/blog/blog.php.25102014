@@ -1,0 +1,216 @@
+<?php 
+
+	
+
+	function blog_masonry_init() {
+	if ( is_page_template('blog.php') || is_singular('post')|| is_archive() || is_search()) {
+	wp_enqueue_style( 'masonry-css', get_template_directory_uri() . '/includes/blog/css/masonry.css', '', 'all');		 
+	wp_enqueue_style( 'plugin-css', get_template_directory_uri() . '/includes/blog/css/plugins.css', '', 'all');
+
+	//BLOG SCRIPTS	
+	wp_enqueue_script( 'masonry-js', get_template_directory_uri() . '/includes/blog/js/jquery.masonry.min.js', array( 'jquery' ) );
+	wp_enqueue_script( 'plugin-js', get_template_directory_uri() . '/includes/blog/js/plugins.js', array( 'jquery' ) );
+		 }
+	}
+	add_action('wp_enqueue_scripts', 'blog_masonry_init' );	
+	
+	function post_types_blog_sc( $atts, $content = null ) {
+	static $output, $args;
+	global $post;
+	$post_format = get_post_format(); 
+    switch($post_format){ case 'video':     
+    $output .= '<p>'. get_post_meta(get_the_ID(),"_format_video_embed",true) .'</p>';
+    
+	break; case 'audio' :
+    $output .= '' . do_shortcode("[audio-blog]") . '</p>';
+    
+	break; case 'image' :
+	$src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), false, "" ); 
+	$output .= '<div class="blog-thumb"><a id="single_1" title="'. get_the_title($post->ID) .'" href="'. $src[0] .'" >'. get_the_post_thumbnail($post->ID,"blog-style").'</a></div>';
+	
+	break; case 'gallery': 
+    $output .= '<p>'. do_shortcode('[slider-blog]') .'</p>';
+    
+	break; case 'link': 
+    $output .= '<div class="post_text_inner"><a href="'. get_post_meta(get_the_ID(),'_format_link_url',true).'"> <i class="link_mark fa fa-link pull-left"></i> <div class="link-inner"><p>'. get_post_meta(get_the_ID(),'link_text',true).'</p></div></a></div>';
+
+	break; case 'quote': 
+    $output .= '<div class="post_text_inner"><a href="'. get_post_meta(get_the_ID(),'_format_quote_url',true).'"> <i class="qoute_mark fa fa-quote-right pull-left"></i><div class="quote-inner"><p>'. get_post_meta(get_the_ID(),'quote_text',true).'</p><span class="author">'. get_post_meta(get_the_ID(),'_format_quote_source_name',true).'</span></div></a></div>';
+
+	break ;}
+	
+	return $output;
+  			}
+	add_shortcode( 'post_types_blog' , 'post_types_blog_sc' );
+
+	
+	function audio_blog_sc( $atts, $content = null ) {
+	static $output, $args;
+	global $post;
+	ob_start();
+	?>
+	<div id="jquery_jplayer_<?php echo $post->ID; ?>" class="jp-jplayer" data-mp3="<?php echo get_post_meta( $post->ID,'_format_audio_embed',true); ?>" data-swf="<?php echo get_bloginfo( 'template_directory' ); ?>/includes/blog/swf"></div>
+        <div id="jp_container_<?php echo $post->ID; ?>" class="jp-audio"><div class="jp-type-single"><div class="jp-gui jp-interface">
+        <ul class="jp-controls">
+        <li><a href="javascript:;" class="jp-play" tabindex="1"><i class="fa fa-play"></i></a></li>
+        <li><a href="javascript:;" class="jp-pause" tabindex="1"><i class="fa fa-pause"></i></a></li>
+        <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute"><i class="fa fa-volume-up"></i></a></li>
+        <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute"><i class="fa fa-volume-off"></i></a></li>
+        </ul>
+        <div class="jp-progress"><div class="jp-seek-bar"><div class="jp-play-bar"></div> </div> </div>
+        <div class="jp-volume-bar"><div class="jp-volume-bar-value"></div></div>
+        <div class="jp-time-holder"><div class="jp-current-time"></div></div>
+		</div></div></div>
+        <script>jQuery(document).ready(function($) {
+        $("#jquery_jplayer_<?php echo $post->ID; ?>").jPlayer({ ready: function () {$(this).jPlayer("setMedia", { mp3: $(this).attr("data-mp3") }); }, play: function() { $(this).jPlayer("pauseOthers"); }, swfPath: $(this).attr("data-swf") , supplied: "mp3",  cssSelectorAncestor: "#jp_container_<?php echo $post->ID; ?>", }); });</script>
+     <?php $content = ob_get_contents();
+	 ob_get_clean();
+		return $content;
+  			}
+	add_shortcode( 'audio-blog' , 'audio_blog_sc' );
+
+	function slider_blog_main_sc( $atts, $content = null ) {
+	static $output, $args;
+	ob_start(); ?>
+      <div class='blog-slider'><div class='flexslider' style='margin-bottom:20px;'><ul class='slides'>
+  	  <?php $attachments = get_posts( $args );
+      $image_url = gallery_first_image(); if($image_url) { foreach($image_url as $i) : ?>
+			<li><img width='639px' height='340px' src="<?php echo $i; ?>" /></li>
+            <?php endforeach; } ?>
+             </ul></div></div>
+			 <?php
+			$contents = ob_get_contents();
+			ob_get_clean();
+  			return $contents;
+  			}
+	add_shortcode( 'slider-blog-main' , 'slider_blog_main_sc' );
+
+
+	function slider_blog_sc( $atts, $content = null ) {
+	static $output, $args;
+      $output .= "<div class='blog-slider'><div class='flexslider' style='margin-bottom:20px;'><ul class='slides'>";
+  	  $attachments = get_posts( $args );
+      $image_url = gallery_first_image(); if($image_url) { foreach($image_url as $i) :
+			$output .= "<li>";
+			if (get_option('premiumwd_blog_lightbox', 'true') == 'true'):
+            $output .= "<a class='fancybox' rel='gallery1' href='".$i."' title='". get_the_title()."'>";
+			endif;
+            $output .= "<img width='100%' height='340px' src='".$i."' />";
+			if (get_option('premiumwd_blog_lightbox','true')=='true'): 
+            $output .= "</a>";
+			endif;
+            $output .= "</li>";  
+            endforeach; }
+            $output .= " </ul></div></div>";
+  			return $output;
+  			}
+	add_shortcode( 'slider-blog' , 'slider_blog_sc' );
+
+/**
+ * Remove inline styles printed when the gallery shortcode is used.
+ *
+ * Galleries are styled by the theme in Twenty Ten's style.css. This is just
+ * a simple filter call that tells WordPress to not use the default styles.
+ *
+ */
+add_filter( 'use_default_gallery_style', '__return_false' );
+
+/**
+ * Deprecated way to remove inline styles printed when the gallery shortcode is used.
+ *
+ * This function is no longer needed or used. Use the use_default_gallery_style
+ * filter instead, as seen above.
+ *
+ * @deprecated Deprecated in Twenty Ten 1.2 for WordPress 3.1
+ *
+ * @return string The gallery style filter, with the styles themselves removed.
+ */
+function stack_remove_gallery_css( $css ) {
+	return preg_replace( "#<style type='text/css'>(.*?)</style>#s", '', $css );
+}
+// Backwards compatibility with WordPress 3.0.
+if ( version_compare( $GLOBALS['wp_version'], '3.1', '<' ) )
+	add_filter( 'gallery_style', 'stack_remove_gallery_css' );
+
+function gallery_first_image(){		
+	global $post;
+	$args = array(
+		'post_type'   => 'attachment',
+		'numberposts' => 9,
+		'post_parent' => $post->ID,
+		'order' => 'ASC',
+		'orderby' => 'menu_order',
+		'post_mime_type' => 'image'
+		
+		);
+
+	$attachments = get_posts( $args );
+	if ( $attachments )
+	{
+		foreach ( $attachments as $attachment )
+		{					
+			$img[] = wp_get_attachment_url( $attachment->ID ); 
+		}
+	}		
+	
+	$groups = get_post_meta( $post->ID, 'portfolio_repeat_group', true );
+	if(!empty($groups))
+	foreach($groups as $entry){
+		
+		if(isset($entry['image']) && !empty($entry['image']))
+			
+			$img[] = $entry['image'];
+		
+	}
+	
+	return $img;	
+}
+
+//*Gallery shortcode +fancybox
+remove_shortcode( 'gallery' );
+function gallery_filter( $atts, $content = null ) {
+	 static $output, $args;
+
+  $output .= "<div class='flexslider' style='margin-bottom:20px;'><ul class='slides'>";
+  $attachments = get_posts( $args );
+  $image_url = gallery_first_image(); if($image_url) { foreach($image_url as $i) :
+			$output .= "<li>";
+			if (get_option('premiumwd_blog_lightbox','true')=='true'): 
+            $output .= "<a class='fancybox' rel='gallery1' href='".$i."' title='". get_the_title()."'>";
+            endif;
+			$output .= "<img width='100%' height='340px' src='".$i."' />";
+            if (get_option('premiumwd_blog_lightbox','true')=='true'): 
+			$output .= "</a>";
+			endif;
+            $output .= "</li>";  
+            endforeach; }
+            $output .= " </ul></div>";
+  			return $output;
+  			}
+	add_shortcode( 'gallery' , 'gallery_filter' );
+
+
+// Replaces the excerpt "more" text by a link
+function new_excerpt_more($more) {
+       global $post;
+	return '';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+function custom_excerpt_length( $length ) {
+	return 23;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+function stack_remove_recent_comments_style() {
+	add_filter( 'show_recent_comments_widget_style', '__return_false' );
+}
+add_action( 'widgets_init', 'stack_remove_recent_comments_style' );
+
+
+	// additional image sizes
+	add_image_size( 'blog-style', 1200, 340, true ); //640 pixels wide & 300 height
+
+
+
+
